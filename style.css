@@ -1,0 +1,124 @@
+/* main header */
+* {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url(img/vector_img.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.mhead {
+    padding: 20px;
+    background-size: cover;
+    color: white;
+    text-shadow: 0 3 10px white;
+}
+
+.navbar {
+
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navbar a.color {
+    color: black;
+}
+
+.navbar a:hover {
+    background: linear-gradient(35deg, white, rgb(173, 230, 240));
+    color: black;
+    border-radius: 15px;
+}
+
+/*above this all pages are main header are going to same*/
+
+
+.heading {
+    width: 100%;
+    position: absolute;
+    top: 55%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.heading h1 {
+    font-size: 55px;
+    font-weight: 900;
+    color: #0834f8d8;
+    text-shadow: 0 0 5px white;
+
+}
+
+.heading p {
+    line-height: 18px;
+    font-weight: bold;
+    color: rgba(37, 37, 37, 0.863);
+}
+
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    position: absolute;
+    width: 100%;
+    top: 120%;
+    transform: translateY(-50%);
+
+
+}
+
+#container div {
+    height: 370px;
+    width: 280px;
+    background: white;
+    margin: 60px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.438);
+}
+
+#container div h2 {
+    line-height: 90px;
+}
+
+#container div p {
+    line-height: 28px;
+}
+
+.mfooter {
+    width: 100%;
+    position: absolute;
+    top: 165%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 12px;
+    background-color: white;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.438);
+    font-size: 15px;
+}
+
+.mfooter p a {
+    text-decoration: none;
+}
+
+.mfooter p a:hover {
+    color: red;
+
+}
